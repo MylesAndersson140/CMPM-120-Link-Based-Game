@@ -1,0 +1,244 @@
+{
+    "Title": "A Journey Home",
+    "Credits": "Inspiration drawn from ArcheAge. Story created by Myles Andersson",
+    "InitialLocation": "Gweonid Forest",
+    "Axe":  [],
+    "Locations": {
+        "Gweonid Forest": {
+            "Body": "Confused, you begin your journey as an adventurer in the lush forest of Gweonid Forest",
+            "Choices":[
+                {
+                    "Text": "East",
+                    "Target": "Lilyut Hills"
+                }
+            ]
+        },
+        "Lilyut Hills": {
+            "Body": "Upon going east you enter Lilyut Hills, a sactuary for horses. You notice a particular tree that seems great for construction, if only you had an Axe.",
+            "Choices":[
+                {
+                    "Text": "South",
+                    "Target": "Dewstone Plains"
+                },
+                {
+                    "Text": "West",
+                    "Target": "Gweonid Forest"
+                }
+            ]
+        },
+        "Dewstone Plains": {
+            "Body": "As you adventure south you encounter a more arid and dry environment called Dewstone Plains, an area filled with walking mining machines randomly milling about. You notice a distressed mariner ",
+            "Choices":[
+                {
+                    "Text": "South",
+                    "Target": "Marianople"
+                },
+                {
+                    "Text": "North",
+                    "Target": "Lilyut Hills"
+
+                },
+                {
+                    "Text": "Talk to Mariner",
+                    "Target": "Mariner"
+                }
+            ]
+        },
+        "Mariner": {
+            "Body": "Hello traveler, you don't look like you're from around these parts, if you can help me fix my boat I can take you back home. Heres an axe, go find a hearty looking tree to repair my boat!",
+            "Choices":[
+                {
+                    "Text": "Understood, thank you for this opprotunity!",
+                    "Target": "Before Lilyut"
+                }
+            ]
+        },
+        "Before Lilyut":{
+            "Body": "You obtained an axe from the mariner, and you remember that you saw a mighty looking tree in Lilyut Hills. Lets head there!",
+            "Choices": [
+                {
+                    "Text": "Back to Lilyut Hills!",
+                    "Target": "Chopping Lilyut Hills"
+                }
+            ]
+        },
+        "Chopping Lilyut Hills":{
+            "Body": "Upon going east you enter Lilyut Hills, a sactuary for horses. You notice a particular tree that seems great for construction, if only you had an Axe."
+        },
+        "Marianople": {
+            "Body": "This is Marianople, a sign tells you that this is the capital of the country, as you explore the busy streets you finally come to the city center where a massive fountain illustrating the heros of the times. You stand in awe, but not for too long as you must get back home!",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Halcyona"
+                },
+                {
+                    "Text": "North",
+                    "Target": "Dewstone Plains"
+                }
+            ]
+        },
+        "Halcyona": {
+            "Body": "A sign post tells you that you have entered Halcyona, it is noticibly dry and herds of buffalo stomp in the distance, this place does not seem to have much use for your adventure. You continue onward.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Marianople"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Sanddeep"
+                }
+            ]
+        },
+        "Sanddeep": {
+            "Body": "Arriving on the shores of Sanddeep, the rays of sun welcome you to the sanctuary, where the beaches are filled with beautiful bungalows and happy beach go-ers.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Halcyona"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Hellswamp"
+                }
+            ]
+        },
+        "Hellswamp": {
+            "Body": "Hellswamp, a swamp filled with zombies! You see a sign post half sunken into the swampy environment warning you not to travel any further. You decide that you do not want to stay here for too long, the creatures here seem menacing and dangerous.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Sanddeep"
+                }
+            ]
+        },
+        "Tree Chopping": {
+            "Body": "A hardy looking tree, perfect for fixing the mariners boat! Luckily you have the Axe from the mariner.",
+            "Choices": [
+                {
+                    "Text": "Chop Tree",
+                    "Target":"Lilyut New"
+                } 
+            ]
+        },
+        "Lilyut New":{
+            "Body": "You have chopped the tree and have aquired a log perfect for the mariners boat. Best to head to the mariner!",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "New Dewstone Plains"
+                }
+            ]
+
+        },
+        "New Dewstone Plains":{
+            "Body": "The mariner notices you with a log and thanks you profusely, you have the choice to explore more or head home!",
+            "Choices":[
+                {
+                    "Text": "South",
+                    "Target": "New Marianople"
+                },
+                {
+                    "Text": "North",
+                    "Target": "New Lilyut Hills"
+                },
+                {
+                    "Text": "Home!",
+                    "Target": "Diamond Shores"
+                }
+            ]
+        },
+        "New Marianople": {
+            "Body": "This is Marianople, a sign tells you that this is the capital of the country, as you explore the busy streets you finally come to the city center where a massive fountain illustrating the heros of the times. You stand in awe, but not for too long as you must get back home!",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "New Halcyona"
+                },
+                {
+                    "Text": "North",
+                    "Target": "Newer Dewstone Plains"
+                }
+            ]
+        },
+        "Newer Dewstone Plains":{
+            "Body": "You are back in Dewstone Plains, are you ready to head home?",
+            "Choices":[
+                {
+                    "Text": "South",
+                    "Target": "New Marianople"
+                },
+                {
+                    "Text": "North",
+                    "Target": "New Lilyut Hills"
+                },
+                {
+                    "Text": "Home!",
+                    "Target": "Diamond Shores"
+                }
+            ]
+        },
+        "New Lilyut Hills":{
+            "Body": "Back in Lilyut hills you see where the strong looking tree used to be.",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Newer Dewstone Plains"
+                },
+                {
+                    "Text": "West",
+                    "Target": "New Gweonid Forest"
+                }
+            ]
+
+        },
+        "New Gweonid Forest": {
+            "Body": "You are back in Gweonid forest, you reminise on how your journey as an adventurer began in this lush forest.",
+            "Choices":[
+                {
+                    "Text": "East",
+                    "Target": "New Lilyut Hills"
+                }
+            ]
+        },
+        "New Halcyona": {
+            "Body": "A sign post tells you that you have entered Halcyona, it is noticibly dry and herds of buffalo stomp in the distance, this place does not seem to have much use for your adventure. You continue onward.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "New Marianople"
+                },
+                {
+                    "Text": "South",
+                    "Target": "New Sanddeep"
+                }
+            ]
+        },
+        "New Sanddeep": {
+            "Body": "Arriving on the shores of Sanddeep, the rays of sun welcome you to the sanctuary, where the beaches are filled with beautiful bungalows and happy beach go-ers.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "New Halcyona"
+                },
+                {
+                    "Text": "South",
+                    "Target": "New Hellswamp"
+                }
+            ]
+        },
+        "New Hellswamp": {
+            "Body": "Hellswamp, a swamp filled with zombies! You see a sign post half sunken into the swampy environment warning you not to travel any further. You decide that you do not want to stay here for too long, the creatures here seem menacing and dangerous.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "New Sanddeep"
+                }
+            ]
+        },
+        "Diamond Shores":{
+            "Body": "Braving the storms of the Arcadian Sea and the typhoons of the Sea of Graves you see your home of Diamond Shores in the distance. You maneuver through the colossal ice bergs and finally make it onto land. Your friends and family who have been worried sick and awaited your return cheer at the sight of their long lost friend."
+        }
+    }
+}
